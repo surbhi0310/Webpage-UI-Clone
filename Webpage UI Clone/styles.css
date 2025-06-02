@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("C:\Users\Cromsa\Desktop\MY\working\Webpage UI Clone\Assets\background-image.png");
+    /* background-color: aqua; */
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    margin: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 0 8px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#services {
+    border: hidden;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    /* height: 80vh; */
+    position: relative;
+    top: -56px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;   
+    position: relative;
+}
+
+#car-btn{
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 20px;
+
+}
+
+.left{
+    background-color: white;
+    /* width: 28%;  */
+    margin: 9% 0 0 7%; 
+    position:relative ;
+
+}
+
+#bold{
+    width: 27vw;
+}
+
+#bold h1{
+    font-size: 58px;
+    padding-bottom: 24px;
+}
+
+#para{
+    padding-bottom: 18px;
+    font-size: 22px;
+}
+
+button{
+    padding: 12px 14px;
+    font-size: 15px;
+}
+
+#btn1{
+    background-color: palevioletred;
+    color: white;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#btn2{
+    background-color:white;
+    border: 2px solid palevioletred;
+    border-radius: 5px;
+    color: palevioletred;
+}
+.contact{
+    display: flex;
+    font-size: 27px;
+    margin: 3px;
+}
+.contact img{
+    margin-right: 4px;
+    width: 2vw;
+    padding: 4px;
+}
+footer{
+    margin-top: 18vh;
+}
+
+.right{
+    /* background-color: pink; */
+    /* height: 100vh; */
+    /* position: relative; */
+    /* left: -29px; */
+    width: 60%;
+}
+.hero{
+    /* height: 80vh; */
+    /* margin-bottom:2px; */
+    position: relative;
+    top: -38px;
+    /* width: 60vw; */
+    /* left: -3vw; */
+    /* height: 90vh; */
+}
+
+#home-btn{
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 22%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 20px;
+    position: relative;
+    bottom: 80vh;
+    left: 23vw;
+}
+.logo{
+    padding-right: 8px;
+}
